@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+$BINDIR=/path/to/location
+cd $BINDIR/xss-multitool
+exec ./xss-multitool.py "$@"
