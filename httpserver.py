@@ -98,4 +98,5 @@ class Handler(BaseHTTPRequestHandler):
   # just in case we need to support a preflight
   def do_OPTIONS(self):
     self.send_response(201)
+    self._each_request()
     self.end_headers()
